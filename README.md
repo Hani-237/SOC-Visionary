@@ -1,51 +1,40 @@
 # SOC-Visionary
-🚀 About the Project
-This repository is part of the Summer of Code 2025 initiative. The goal was to dive deep into the core concepts of deep learning with PyTorch by building neural networks manually and exploring advanced methods hands-on.
+# 🚀 About the Project
 
-The journey began with data analysis and progressed through constructing, training, and refining models — eventually applying transfer learning using pretrained models like ResNet‑18. This process provided a solid mix of theoretical knowledge and real-world coding practice in developing and evaluating deep learning models.
+This project is part of Summer of Code 2025. The aim was to explore and master the fundamentals of deep learning using PyTorch, by implementing neural networks from scratch and experimenting with advanced techniques.
 
-📌 What’s Inside the Repo:
+## 📌 The repository includes:
 
-Complete code for all assignments
+- All assignment code  
+- Reflections and learning summaries
 
-Reflections and personal insights from each stage
+## 🧠 What I’ve Learned
 
-🧠 What I’ve Learned
+### 📌 1. Understanding the Dataset
 
-📌 1. Exploring the Dataset
+- Worked with Fashion‑MNIST, a dataset of grayscale clothing images  
+- Applied data preprocessing: normalization, flattening, reshaping  
+- Used NumPy, pandas, and matplotlib to visualize and inspect patterns  
 
-Worked on Fashion‑MNIST, a collection of grayscale clothing images
+### 📌 2. Neural Network Fundamentals
 
-Applied preprocessing steps like normalization, reshaping, and flattening
+- Understood feed-forward neural networks and the training process  
+- Implemented custom ReLU, loss functions, and optimizers  
+- Built training loops using `optimizer.step()` and `loss.backward()`  
+- Handled overfitting with dropout layers  
+- Compared Adam and SGD optimizers for convergence and speed  
 
-Used NumPy, pandas, and matplotlib for visualization and pattern analysis
+### 📌 3. Improving Model Performance
 
-📌 2. Basics of Neural Networks
+- Applied batch normalization to stabilize training  
+- Used Xavier (Glorot) initialization to improve weight distribution  
+- Compared model accuracy and loss curves for performance gains  
 
-Learned the mechanics of feedforward networks and how training works
+### 📌 4. Transfer Learning with ResNet‑18
 
-Created custom implementations for ReLU, loss functions, and optimizers
+- Understood transfer learning and pretrained models  
+- Modified ResNet‑18 to accept grayscale input and 10-class output  
+- Froze earlier layers and fine‑tuned deeper layers  
+- Used confusion matrices and accuracy metrics for final evaluation  
 
-Designed training loops using loss.backward() and optimizer.step()
 
-Tackled overfitting issues using dropout layers
-
-Compared performance between Adam and SGD optimizers
-
-📌 3. Enhancing Model Accuracy
-
-Introduced batch normalization to improve training stability
-
-Used Xavier initialization for better weight distribution
-
-Analyzed and compared training curves for loss and accuracy
-
-📌 4. Applying Transfer Learning with ResNet‑18
-
-Gained insight into transfer learning and pretrained model usage
-
-Adapted ResNet‑18 to handle grayscale images and 10 output classes
-
-Froze early layers and fine-tuned the deeper parts of the model
-
-Evaluated the results using confusion matrices and accuracy scores
